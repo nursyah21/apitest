@@ -1,7 +1,7 @@
 # apitest
 simple shell script  to test api
 
-![screenshot](assets/Screenshot%20from%202023-08-21%2006-38-59.png)
+![screenshot](assets/v2.png)
 
 
 ## getting started

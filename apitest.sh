@@ -44,8 +44,10 @@ for ((i=1; i<=$totalApi; i++));do
     data=${api[$i]#*data=}
     data=${data%% *}
 
-    echo -e $Yellow"$i: $method $url"
+    echo -n "$i: "
+    curl -X $method  $data $url && \
+    echo && \
+    echo -e $Yellow" $method $url" && \
     echo -n -e $White
-    curl -X $method  $data $url
     echo 
 done
