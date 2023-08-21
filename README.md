@@ -7,7 +7,7 @@ simple shell script  to test api
 
 1. test api without leaving your ide
 2. easy customize just edit file apitest.sh
-3. lightweight if
+3. lightweight
 
 ## dependecies
 - bash  https://git-scm.com/downloads
